@@ -1,0 +1,6 @@
+library(shiny)
+library(tidyverse)
+library(reshape2)
+housing = read.csv('housing.csv')
+head(housing)
+summary(housing)
